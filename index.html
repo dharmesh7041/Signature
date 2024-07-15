@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Signature</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="SIGN3.png">
+
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="block">
+                <p>Text Color Picker</p>
+                <input type="color"
+                 class="form-content" 
+                 id="colorpicker">
+            </div>
+            <div class="block">
+                <p>Background</p>
+                <input type="color"
+                class ="form-content"
+                 id="canvascolor">
+             </div>
+
+             <div class="block" >
+                <p>Font Size</p>
+                <select  id="fontpicker">
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="20">20px</option>
+                    <option value="30">30px</option>
+                    <option value="40">40px</option>
+                </select>
+
+             </div>
+
+        </div>
+
+        <canvas class="canvas"
+         id="mycanvas" 
+         width="800px"
+          height="500px"></canvas>
+
+          <div class="bottom">
+            <button type="button" class="btn1" id="clearbtn">Clear</button>
+            <button type="button" class="btn2" id="savebtn">Save & Download</button>
+            
+          </div>
+    </div>
+    <script src="sign.js"></script>  
+</body>
+</html>
